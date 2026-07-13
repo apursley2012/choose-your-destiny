@@ -1,0 +1,1 @@
+import{r as s}from"./assets/index.js";import{m as o}from"./canvas.manifest.js";function c(){return s.useMemo(()=>{var r,n,t;if(typeof window>"u")return{};const e=new URLSearchParams(window.location.search).get("mp_screen");return e?((t=(n=(r=o)==null?void 0:r.screens)==null?void 0:n[e])==null?void 0:t.state)??{}:{}},[])}export{c as u};
